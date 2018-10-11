@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41178832216AB84E00649E2C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41178831216AB84E00649E2C /* ProfileViewController.swift */; };
+		412688FF216FE96500296E21 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412688FE216FE96500296E21 /* UIImageExtension.swift */; };
+		41D4CB9B216A9B950004C62A /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4CB9A216A9B950004C62A /* RoundedImage.swift */; };
 		41E0A61B2142728B00CF468C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0A61A2142728B00CF468C /* AppDelegate.swift */; };
-		41E0A61D2142728B00CF468C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0A61C2142728B00CF468C /* ViewController.swift */; };
+		41E0A61D2142728B00CF468C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0A61C2142728B00CF468C /* RegisterViewController.swift */; };
 		41E0A6202142728B00CF468C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E0A61E2142728B00CF468C /* Main.storyboard */; };
 		41E0A6222142728E00CF468C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E0A6212142728E00CF468C /* Assets.xcassets */; };
 		41E0A6252142728E00CF468C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E0A6232142728E00CF468C /* LaunchScreen.storyboard */; };
+		41E0A62E21427ADC00CF468C /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0A62D21427ADB00CF468C /* UIViewControllerExtensions.swift */; };
+		41E0A633214317C900CF468C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41E0A632214317C900CF468C /* GoogleService-Info.plist */; };
+		41E0A63721431D5200CF468C /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0A63621431D5200CF468C /* AppUser.swift */; };
+		41E0A63921432C0F00CF468C /* FirUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0A63821432C0F00CF468C /* FirUserService.swift */; };
+		41E0A63C21433CBF00CF468C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0A63B21433CBF00CF468C /* Constants.swift */; };
+		F99689BFA50BCBBC5A7EDCD3 /* Pods_IMyWhattsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D9D8AAFC3E0533EE556EF9 /* Pods_IMyWhattsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		196CF7440C163FC8A079BD8F /* Pods-IMyWhattsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMyWhattsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMyWhattsApp/Pods-IMyWhattsApp.release.xcconfig"; sourceTree = "<group>"; };
+		41178831216AB84E00649E2C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		412688FE216FE96500296E21 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		41D4CB9A216A9B950004C62A /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 		41E0A6172142728B00CF468C /* IMyWhattsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMyWhattsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E0A61A2142728B00CF468C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41E0A61C2142728B00CF468C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41E0A61C2142728B00CF468C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		41E0A61F2142728B00CF468C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41E0A6212142728E00CF468C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41E0A6242142728E00CF468C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41E0A6262142728E00CF468C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E0A62D21427ADB00CF468C /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		41E0A632214317C900CF468C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		41E0A63621431D5200CF468C /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		41E0A63821432C0F00CF468C /* FirUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirUserService.swift; sourceTree = "<group>"; };
+		41E0A63B21433CBF00CF468C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		92D9D8AAFC3E0533EE556EF9 /* Pods_IMyWhattsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMyWhattsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A736190D574ACEA87D2C4EAE /* Pods-IMyWhattsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMyWhattsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMyWhattsApp/Pods-IMyWhattsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F99689BFA50BCBBC5A7EDCD3 /* Pods_IMyWhattsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41D4CB99216A9B7F0004C62A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				41D4CB9A216A9B950004C62A /* RoundedImage.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		41E0A60E2142728B00CF468C = {
 			isa = PBXGroup;
 			children = (
 				41E0A6192142728B00CF468C /* IMyWhattsApp */,
 				41E0A6182142728B00CF468C /* Products */,
+				7A540D4495DC02CF6D2C614B /* Pods */,
+				F38E12AA73998BF9BD650050 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +85,79 @@
 		41E0A6192142728B00CF468C /* IMyWhattsApp */ = {
 			isa = PBXGroup;
 			children = (
+				41D4CB99216A9B7F0004C62A /* views */,
+				41E0A63A21433CA900CF468C /* helpers */,
+				41E0A63521431D3D00CF468C /* services */,
+				41E0A63421431D3600CF468C /* models */,
 				41E0A61A2142728B00CF468C /* AppDelegate.swift */,
-				41E0A61C2142728B00CF468C /* ViewController.swift */,
+				41E0A62C21427ABC00CF468C /* extensions */,
+				41E0A63121430B0100CF468C /* controllers */,
 				41E0A61E2142728B00CF468C /* Main.storyboard */,
 				41E0A6212142728E00CF468C /* Assets.xcassets */,
 				41E0A6232142728E00CF468C /* LaunchScreen.storyboard */,
 				41E0A6262142728E00CF468C /* Info.plist */,
+				41E0A632214317C900CF468C /* GoogleService-Info.plist */,
 			);
 			path = IMyWhattsApp;
+			sourceTree = "<group>";
+		};
+		41E0A62C21427ABC00CF468C /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				41E0A62D21427ADB00CF468C /* UIViewControllerExtensions.swift */,
+				412688FE216FE96500296E21 /* UIImageExtension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		41E0A63121430B0100CF468C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				41E0A61C2142728B00CF468C /* RegisterViewController.swift */,
+				41178831216AB84E00649E2C /* ProfileViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		41E0A63421431D3600CF468C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				41E0A63621431D5200CF468C /* AppUser.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		41E0A63521431D3D00CF468C /* services */ = {
+			isa = PBXGroup;
+			children = (
+				41E0A63821432C0F00CF468C /* FirUserService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		41E0A63A21433CA900CF468C /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				41E0A63B21433CBF00CF468C /* Constants.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		7A540D4495DC02CF6D2C614B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A736190D574ACEA87D2C4EAE /* Pods-IMyWhattsApp.debug.xcconfig */,
+				196CF7440C163FC8A079BD8F /* Pods-IMyWhattsApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F38E12AA73998BF9BD650050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92D9D8AAFC3E0533EE556EF9 /* Pods_IMyWhattsApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41E0A6292142728E00CF468C /* Build configuration list for PBXNativeTarget "IMyWhattsApp" */;
 			buildPhases = (
+				37AAB1FD7EDBA7015B146A5E /* [CP] Check Pods Manifest.lock */,
 				41E0A6132142728B00CF468C /* Sources */,
 				41E0A6142142728B00CF468C /* Frameworks */,
 				41E0A6152142728B00CF468C /* Resources */,
+				A3E041AC80D0E23D19B201DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41E0A6252142728E00CF468C /* LaunchScreen.storyboard in Resources */,
+				41E0A633214317C900CF468C /* GoogleService-Info.plist in Resources */,
 				41E0A6222142728E00CF468C /* Assets.xcassets in Resources */,
 				41E0A6202142728B00CF468C /* Main.storyboard in Resources */,
 			);
@@ -130,13 +229,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37AAB1FD7EDBA7015B146A5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMyWhattsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E041AC80D0E23D19B201DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IMyWhattsApp/Pods-IMyWhattsApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQAudioRecorderController/IQAudioRecorderController.framework",
+				"${BUILT_PRODUCTS_DIR}/JDropDownAlert/JDropDownAlert.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SCSiriWaveformView/SCSiriWaveformView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQAudioRecorderController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JDropDownAlert.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSiriWaveformView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMyWhattsApp/Pods-IMyWhattsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		41E0A6132142728B00CF468C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41E0A61D2142728B00CF468C /* ViewController.swift in Sources */,
+				41E0A63921432C0F00CF468C /* FirUserService.swift in Sources */,
+				41E0A63721431D5200CF468C /* AppUser.swift in Sources */,
+				41D4CB9B216A9B950004C62A /* RoundedImage.swift in Sources */,
+				41E0A61D2142728B00CF468C /* RegisterViewController.swift in Sources */,
+				41E0A62E21427ADC00CF468C /* UIViewControllerExtensions.swift in Sources */,
+				412688FF216FE96500296E21 /* UIImageExtension.swift in Sources */,
 				41E0A61B2142728B00CF468C /* AppDelegate.swift in Sources */,
+				41178832216AB84E00649E2C /* ProfileViewController.swift in Sources */,
+				41E0A63C21433CBF00CF468C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +455,7 @@
 		};
 		41E0A62A2142728E00CF468C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A736190D574ACEA87D2C4EAE /* Pods-IMyWhattsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +474,7 @@
 		};
 		41E0A62B2142728E00CF468C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196CF7440C163FC8A079BD8F /* Pods-IMyWhattsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
